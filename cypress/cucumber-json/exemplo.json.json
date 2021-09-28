@@ -1,0 +1,73 @@
+[
+  {
+    "description": "Como usuario, desejo acessar o site \nPara que possa realizar meu login",
+    "keyword": "Feature",
+    "name": "Primeiro teste",
+    "line": 1,
+    "id": "primeiro-teste",
+    "tags": [],
+    "uri": "exemplo.feature",
+    "elements": [
+      {
+        "id": "primeiro-teste;acessando-o-site",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Acessando o site",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que eu acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "desejo realizar meu \"login\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "informar os dados de \"usuario\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "informar a \"senha\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "devo obter o resultado \"login efetuado com sucesso\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
