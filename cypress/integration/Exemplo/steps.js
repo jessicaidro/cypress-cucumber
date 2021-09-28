@@ -11,6 +11,7 @@ When(/^desejo realizar meu "([^"]*)"$/, (args1) => {
 When(/^informar os dados de "([^"]*)"$/, (args1) => {
 	console.log(args1);
 	return true;
+	
 });
 
 When(/^informar a "([^"]*)"$/, (args1) => {
